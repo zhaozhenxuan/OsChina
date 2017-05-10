@@ -3,6 +3,7 @@ package com.example.administrator.oschina.scend_Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,6 +22,8 @@ public class Inquire_Fragment extends Fragment {
 
 
         View inquire = inflater.inflate(R.layout.synthetical_inquire_item , null);
+
+        Log.e("TAG","当前位置 : " + "Inquire_Fragment");
 
         return inquire;
 

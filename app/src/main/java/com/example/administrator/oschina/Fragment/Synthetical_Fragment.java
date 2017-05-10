@@ -58,10 +58,11 @@ public class Synthetical_Fragment extends android.support.v4.app.Fragment{
         inquire = new Inquire_Fragment();
         message = new Message_Fragment();
 
-        list.add(blogs);
-        list.add(exercise);
-        list.add(inquire);
         list.add(message);
+        list.add(blogs);
+        list.add(inquire);
+        list.add(exercise);
+
 
         synthetical_pager.setAdapter(myPageAdapter);
 
