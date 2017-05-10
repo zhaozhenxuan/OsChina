@@ -39,7 +39,7 @@ public class Message_Fragment extends Fragment {
         Log.e("TAG","当前位置 : " + "Message_Fragment");
 
         //设置播放时间间隔
-        synthetical_Pager.setPlayDelay(1000);
+        synthetical_Pager.setPlayDelay(3000);
         //设置透明度
         synthetical_Pager.setAnimationDurtion(500);
         //设置适配器
