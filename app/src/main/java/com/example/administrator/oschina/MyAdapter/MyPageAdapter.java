@@ -14,7 +14,7 @@ import static android.R.attr.name;
 
 public class MyPageAdapter extends FragmentPagerAdapter {
 
-    String[] name = new String[]{"咨询", "博客", "问答", "活动"};
+    String[] name = new String[]{"资讯", "博客", "问答", "活动"};
     private ArrayList<Fragment> list;
 
     public MyPageAdapter(FragmentManager fm,ArrayList<Fragment> list) {
