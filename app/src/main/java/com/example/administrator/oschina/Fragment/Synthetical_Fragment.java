@@ -23,7 +23,8 @@ import static com.example.administrator.oschina.R.id.synthetical_pager;
  * Created by Administrator on 2017/5/9 0009.
  */
 
-public class Synthetical_Fragment extends android.support.v4.app.Fragment{
+public class
+Synthetical_Fragment extends android.support.v4.app.Fragment{
 
     private ArrayList<android.support.v4.app.Fragment> list;
     private ViewPager synthetical_pager;
@@ -63,10 +64,13 @@ public class Synthetical_Fragment extends android.support.v4.app.Fragment{
         list.add(inquire);
         list.add(exercise);
 
+        myPageAdapter = new MyPageAdapter(getChildFragmentManager() , list);
+        //加载多少Fragment
+        synthetical_pager.setOffscreenPageLimit(4);
 
         synthetical_pager.setAdapter(myPageAdapter);
 
-        myPageAdapter = new MyPageAdapter(getChildFragmentManager() , list);
+
 
         synthetical_tab.setupWithViewPager(synthetical_pager);
         synthetical_tab.setTabMode(TabLayout.MODE_FIXED);

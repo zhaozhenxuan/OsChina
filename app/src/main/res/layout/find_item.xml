@@ -5,18 +5,19 @@
     android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
-        android:background="@mipmap/icon_record_layout_nor"
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/toolbar">
+        android:layout_height="35dp"
+        android:background="#24CF5F">
+
         <TextView
-            android:textColor="#ffffff"
             android:id="@+id/tv_toobar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_gravity="center_horizontal"
-            android:text="Toobar" />
+            android:text="发现"
+            android:textColor="#ffffff" />
     </android.support.v7.widget.Toolbar>
 
 </LinearLayout>

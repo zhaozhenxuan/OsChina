@@ -42,6 +42,7 @@ public class HomeActivity extends FragmentActivity {
 
     private void initView() {
         adapter = new MyViewPagerAdapter(getSupportFragmentManager(), list);
+        home_pager.setOffscreenPageLimit(4);
         home_pager.setAdapter(adapter);
     }
 

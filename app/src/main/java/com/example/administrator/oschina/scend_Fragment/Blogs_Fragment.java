@@ -21,7 +21,7 @@ public class Blogs_Fragment extends Fragment {
 
         View blogs = inflater.inflate(R.layout.synthetical_blogs_item , null);
 
-        Log.e("TAG","当前位置 : " + "Blogs_Fragment");
+
 
         return blogs;
     }
